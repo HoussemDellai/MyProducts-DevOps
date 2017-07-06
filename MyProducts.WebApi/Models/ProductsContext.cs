@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
+﻿using System.Data.Entity;
 
 namespace MyProducts.WebApi.Models
 {
@@ -19,6 +15,6 @@ namespace MyProducts.WebApi.Models
         {
         }
 
-        public System.Data.Entity.DbSet<MyProducts.WebApi.Models.Product> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
